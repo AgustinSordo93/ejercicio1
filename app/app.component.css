@@ -1,0 +1,26 @@
+h1
+{
+    text-align: center;
+    color: red;
+}
+
+#user {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #users td, #user th { 
+      border: 1px solid rgb(221, 207, 207);
+      padding: 8px;
+  }
+  #users tr:nth-child(even){background-color: rgb(221, 207, 207); }
+
+  #users tr:hover {background-color: rgb(175, 104, 104); }
+
+  #users th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: silver;
+      color:white
+   }
